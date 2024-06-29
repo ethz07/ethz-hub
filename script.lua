@@ -219,20 +219,49 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Q Tool",
 	Callback = function()
-    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/Q%20Tool'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "C Tool",
 	Callback = function()
-    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/C%20Tool'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "E Tool",
 	Callback = function()
-    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/E%20Tool'))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Keyboard Script"
+})
+
+Tab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Anti Afk Script"
+})
+
+Tab:AddButton({
+	Name = "Anti Afk",
+	Callback = function()
+    local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local VirtualUser = game:GetService("VirtualUser")
+
+LocalPlayer.Idled:connect(function()
+    VirtualUser:CaptureController()
+    VirtualUser:ClickButton2(Vector2.new())
+end)
   	end    
 })
