@@ -207,6 +207,18 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "Breaking Point",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
 	Name = "Miscs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
