@@ -98,7 +98,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Camlock Tool n Target Strafe",
+	Name = "Target Strafe",
 	Callback = function()
       		getgenv().ScriptSettings = {
     Enabled = true,
@@ -129,9 +129,36 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Red Dot Lock",
+	Name = "Red Dot Lock ⚠️",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Camlock Tool",
+	Callback = function()
+      		getgenv().ScriptSettings = {
+    Enabled = true,
+    Prediction = 0.1433,
+    HitscanPriority = "HumanoidRootPart",
+    FOV = 200, -- of ur on mobile do it on 200
+    Scan = true,
+    JumpOffset = 0, -- jump offset, ill make a video on this one
+    TargetStrafeSettings = {
+        Enabled = true,
+        GiveTool = true,
+        Speed = 1,
+        Height = 0,
+        Distance = 7
+    },
+    CameraLock = {
+        Enabled = true,
+        Smoothing = 0.5
+    }
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1acebfeec4fb31431a601eb.lua"))()
   	end    
 })
 
@@ -140,21 +167,21 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Fire Dot Lock",
+	Name = "Fire Dot Lock ⚠️",
 	Callback = function()
       		loadstring(game:HttpGet('https://pastebin.com/raw/ZA3bArc1'))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Green Dot Lock",
+	Name = "Green Dot Lock ⚠️",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/cV5nY40Z"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Dot Camlock",
+	Name = "Dot Camlock ⚠️",
 	Callback = function()
       		loadstring(game:HttpGet('https://pastebin.com/raw/irXzCpBQ'))()
   	end    
@@ -162,7 +189,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Yellow Dot Hitbox Lock",
+	Name = "Yellow Dot Hitbox Lock ⚠️",
 	Callback = function()
       		loadstring(game:HttpGet('https://pastebin.com/raw/ZF5pfFsA'))()
   	end    
