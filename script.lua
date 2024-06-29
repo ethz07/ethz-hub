@@ -182,6 +182,17 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1aceb
 })
 
 local Section = Tab:AddSection({
+	Name = "Camlocks"
+})
+
+Tab:AddButton({
+	Name = "Dot Camlock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/l/main/l"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
 	Name = "Button Camlocks"
 })
 
