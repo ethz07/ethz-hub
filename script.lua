@@ -1,5 +1,3 @@
-local player = game.Players.LocalPlayer
-
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/shlexware-Orion/main/PrivateSource",true))()
 
 local Window = OrionLib:MakeWindow({Name = "ethz HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
