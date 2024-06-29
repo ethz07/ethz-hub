@@ -53,7 +53,7 @@ Time = <number> - The duration of the notfication.
 Tab:AddButton({
 	Name = "Nyxal Camlock",
 	Callback = function()
-      		loadstring(game:HttpGet('
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/nyxal-camlock-free/main/ethz'))()
   	end    
 })
 
