@@ -191,9 +191,9 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Fire Dot Lock",
+	Name = "Yellow Dot Hitbox Lock",
 	Callback = function()
-      		loadstring(game:HttpGet('.'))()
+      		loadstring(game:HttpGet('https://pastebin.com/ZF5pfFsA'))()
   	end    
 })
 
