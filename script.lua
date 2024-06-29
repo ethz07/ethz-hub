@@ -127,8 +127,14 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Target Strafe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 Tab:AddButton({
-	Name = "Blatant Mobile",
+	Name = "Tool Target Strafe",
 	Callback = function()
       		getgenv().ScriptSettings = {
     Enabled = true,
@@ -156,30 +162,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1aceb
 
 Tab:AddButton({
 	Name = "Blatant",
-	Callback = function()
-      		getgenv().ScriptSettings = {
-    Enabled = true,
-    Prediction = 0.1433,
-    HitscanPriority = "HumanoidRootPart",
-    FOV = 100, -- of ur on mobile do it on 200
-    Scan = true,
-    JumpOffset = 0, -- jump offset, ill make a video on this one
-    TargetStrafeSettings = {
-        Enabled = true,
-        GiveTool = true,
-        Speed = 1,
-        Height = 0,
-        Distance = 7
-    },
-    CameraLock = {
-        Enabled = true,
-        Smoothing = 0.5
-    }
-}
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1acebfeec4fb31431a601eb.lua"))()
-  	end    
-})
+	Callback = f
 
 local Section = Tab:AddSection({
 	Name = "Camlocks"
@@ -188,7 +171,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Dot Camlock",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/l/main/l"))()
+      		.
   	end    
 })
 
@@ -199,8 +182,6 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Nyxal Camlock",
 	Callback = function()
-      		game.Players.PlayerAdded:Connect(function(player)
     player:Kick("Invalid ID. This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC")
-end)
   	end    
 })
