@@ -142,21 +142,21 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Fire Dot Lock",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/ZA3bArc1'))()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/ZA3bArc1'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Green Dot Lock",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/cV5nY40Z'))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/cV5nY40Z"))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "Dot Camlock",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/irXzCpBQ'))()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/irXzCpBQ'))()
   	end    
 })
 
@@ -164,7 +164,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Yellow Dot Hitbox Lock",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/ZF5pfFsA'))()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/ZF5pfFsA'))()
   	end    
 })
 
