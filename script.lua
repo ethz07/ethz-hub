@@ -175,6 +175,6 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Nyxal Camlock",
 	Callback = function()
-    player:Kick("Invalid ID. This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC")
+    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
   	end    
 })
