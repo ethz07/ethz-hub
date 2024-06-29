@@ -205,3 +205,34 @@ Tab:AddButton({
     game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Miscs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Tools"
+})
+
+Tab:AddButton({
+	Name = "Q Tool",
+	Callback = function()
+    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+  	end    
+})
+
+Tab:AddButton({
+	Name = "C Tool",
+	Callback = function()
+    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+  	end    
+})
+
+Tab:AddButton({
+	Name = "E Tool",
+	Callback = function()
+    game.StarterGui:SetCore("SendNotification", { Title = "discord.gg/8fw4sJfnCC", Text = "This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC" })
+  	end    
+})
