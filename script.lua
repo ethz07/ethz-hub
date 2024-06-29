@@ -180,3 +180,16 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1acebfeec4fb31431a601eb.lua"))()
   	end    
 })
+
+local Section = Tab:AddSection({
+	Name = "Button Camlocks"
+})
+
+Tab:AddButton({
+	Name = "Nyxal Camlock",
+	Callback = function()
+      		game.Players.PlayerAdded:Connect(function(player)
+    player:Kick("Invalid ID. This script is paid, you can join our discord server to purchase it. discord.gg/8fw4sJfnCC")
+end)
+  	end    
+})
