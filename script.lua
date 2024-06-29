@@ -160,12 +160,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1aceb
   	end    
 })
 
-Tab:AddButton({
-	Name = "Blatant",
-	Callback = f
 
 local Section = Tab:AddSection({
-	Name = "Camlocks"
+	Name = "Q Tool Locks"
 })
 
 Tab:AddButton({
