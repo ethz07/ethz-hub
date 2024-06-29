@@ -93,14 +93,12 @@ Tab:AddButton({
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "Target Strafe",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "Target Strafe"
 })
 
 Tab:AddButton({
-	Name = "Tool Target Strafe",
+	Name = "Camlock Tool n Target Strafe",
 	Callback = function()
       		getgenv().ScriptSettings = {
     Enabled = true,
