@@ -160,6 +160,16 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1aceb
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Tool Locks"
+})
+
+Tab:AddButton({
+	Name = "Red Dot Lock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
+  	end    
+})
 
 local Section = Tab:AddSection({
 	Name = "Q Tool Locks"
