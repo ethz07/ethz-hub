@@ -183,6 +183,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Green Dot Lock",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/cV5nY40Z'))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Dot Camlock",
 	Callback = function()
       		loadstring(game:HttpGet('https://pastebin.com/irXzCpBQ'))()
