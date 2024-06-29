@@ -72,7 +72,11 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Nukermode",
 	Callback = function()
-      		.
+      		OrionLib:MakeNotification({
+	Name = "dc: _ethz",
+	Content = "dm me if you have nukermode script",
+	Image = "rbxassetid://4483345998",
+	Time = 10
   	end    
 })
 
