@@ -29,7 +29,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "AimLocks"
+	Name = "Scripts"
 })
 
 --[[
@@ -38,9 +38,16 @@ Name = <string> - The name of the section.
 
 OrionLib:MakeNotification({
 	Name = "Welcome",
-	Content = "made by _ethz if any bug dm me",
+	Content = "Welcome to my Hub",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 7
+})
+
+OrionLib:MakeNotification({
+	Name = "dc: _ethz",
+	Content = "if any bug dm me",
+	Image = "rbxassetid://4483345998",
+	Time = 7
 })
 
 --[[
@@ -54,6 +61,48 @@ Tab:AddButton({
 	Name = "Nyxal Camlock",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/nyxal-camlock-free/main/ethz'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Swagmode",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nukermode",
+	Callback = function()
+      		.
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Detazy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/I4MMO/Detazy/main/Main", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Faded",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SpaceWare",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Maxiiiiiiiiiiiiiiiiiiiiiii/spaceware/main/spaceware'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pluto",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))();
   	end    
 })
 
