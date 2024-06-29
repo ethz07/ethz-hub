@@ -176,9 +176,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Dot Camlock",
+	Name = "Fire Dot Lock",
 	Callback = function()
-      		loadstring(game:HttpGet('https://pastebin.com/irXzCpBQ'))()
+      		loadstring(game:HttpGet('https://pastebin.com/ZA3bArc1'))()
   	end    
 })
 
@@ -189,8 +189,16 @@ Tab:AddButton({
   	end    
 })
 
+
+Tab:AddButton({
+	Name = "Fire Dot Lock",
+	Callback = function()
+      		loadstring(game:HttpGet('.'))()
+  	end    
+})
+
 local Section = Tab:AddSection({
-	Name = "Button Camlocks"
+	Name = "Button Locks"
 })
 
 Tab:AddButton({
