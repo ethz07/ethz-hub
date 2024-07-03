@@ -231,21 +231,21 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Q Tool",
 	Callback = function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/Q%20Tool'))()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tools/main/Q%20Tool'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "C Tool",
 	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/C%20Tool'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tools/main/C%20Tool'))()
   	end    
 })
 
 Tab:AddButton({
 	Name = "E Tool",
 	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tool/main/E%20Tool'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ethz07/ethz-tools/main/E%20Tool'))()
   	end    
 })
 
