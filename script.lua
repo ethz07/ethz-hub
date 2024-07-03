@@ -218,6 +218,17 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "OP Script"
+})
+
+Tab:AddButton({
+	Name = "H4R7N Hacks",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack.lua"))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Miscs",
 	Icon = "rbxassetid://4483345998",
