@@ -212,6 +212,42 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Section = Tab:AddSection({
+	Name = "MM2 Scripts"
+})
+
+Tab:AddButton({
+	Name = "R3THPRIV",
+	Callback = function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Yarhm",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nexus",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Farm Scripts"
+})
+
+Tab:AddButton({
+	Name = "Tora Egg Farm",
+	Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/EGGmm2'))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Breaking Point",
 	Icon = "rbxassetid://4483345998",
@@ -286,5 +322,16 @@ LocalPlayer.Idled:connect(function()
     VirtualUser:CaptureController()
     VirtualUser:ClickButton2(Vector2.new())
 end)
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Anti Cheat Bypass (If the game has an anti cheat system, use it)"
+})
+
+Tab:AddButton({
+	Name = "Adonis bypass",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
   	end    
 })
